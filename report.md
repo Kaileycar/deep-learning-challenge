@@ -118,11 +118,37 @@ how well it predicted the test data. I did the same process again 3 more times.
 <img width="573" alt="Screenshot 2023-10-01 at 7 21 17 PM" src="https://github.com/Kaileycar/deep-learning-challenge/assets/130424499/a4fff939-37da-410a-9fda-21f131f4f4a7">
 
 ---
+## Final Model
+
+  * The target was the 'IS_SUCCESSFUL' column.  
+  * The features were the rest of the columns.  
+  * The column that was dropped was 'EIN'.
+
+  * Input features were 252 because it was all the feature columns.
+  * There were 2 hidden layers
+    * Layer 1 had 10 units and relu as an activation.
+    * Layer 2 had 20 units and relu as an activation.
+  * The Output layer has 1 unit and sigmoid as an activation.
+  * I trained the model with 50 epochs.
+  * The loss was `0.4593` and the accuracy was `0.7784`.
+  * I got my model to get above 75%! I look at my other models and realized I needed more training data, not less.
+    I added in the 'NAMES' column that I had previously dropped and my first few attempts at this model, I got 0.74.
+    I saw that I probably needed a lot more data from the 'NAMES' column so I added in more and binned the rest as
+    'Other'. I also saw that my units for each model were fairly high so I wondered what a drastic decrease in them
+    would do and it seems like that is what this model needed.
+
+<img width="546" alt="Screenshot 2023-10-01 at 9 01 25 PM" src="https://github.com/Kaileycar/deep-learning-challenge/assets/130424499/bd0002e4-9248-4781-af50-386343648e53">
+
+<img width="563" alt="Screenshot 2023-10-01 at 9 01 30 PM" src="https://github.com/Kaileycar/deep-learning-challenge/assets/130424499/e5522860-d93c-4189-8a58-4f370d3cd90a">
+
+---
 
 ## Summary
 
-None of my 4 models were able to reach above a 0.73, but the last model was very close. I think a model with less  
-epochs would be the best fit for this kind of model. I would also try playing around with both the tanh and leaky relu  
-activations as those seemed to be the best activations for my model. I think the biggest thing to play around with would  
-not only be the number of hidden layers, but the amount of units per layer. I think that less units per layer would be  
-better and help achieve an accuracy above a 0.75.  
+After 6 modeling attempts, I finally got my last model to reach a 77% accuracy. The model was losing a lot of its data  
+by dropping the 'NAME' column, which helped drastically in a higher prediction and lower loss. Relu seemed to be the best  
+activation function for the hidden layers and sigmoid for the output. I found that 2 hidden layers gave the best results  
+with fewer neurons per layer. I'm sure if there were more than 50 epochs, the model could be a tiny bit better, however  
+at around 50 epochs, the accuracy started to go back and forth and not a straight linear decrease.
+
+
