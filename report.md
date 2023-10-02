@@ -54,6 +54,11 @@ how well it predicted the test data. I did the same process again 3 more times.
     layer thinking it would help be more precise when filtering through all the data. I lastly increased the
     number of neurons in the first and second layer thinking it needed more neurons to be more accurate.
 
+<img width="594" alt="Screenshot 2023-10-01 at 7 16 32 PM" src="https://github.com/Kaileycar/deep-learning-challenge/assets/130424499/dba6ed47-059b-4d6a-b7ba-13ae8802e9f8">  
+
+
+<img width="587" alt="Screenshot 2023-10-01 at 7 16 39 PM" src="https://github.com/Kaileycar/deep-learning-challenge/assets/130424499/1f843297-bab7-4f58-a4f2-220757bac48a">
+
 
   #### Model 3:
   * The target was the 'IS_SUCCESSFUL' column.
