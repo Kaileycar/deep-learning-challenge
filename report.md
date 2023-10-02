@@ -82,6 +82,10 @@ how well it predicted the test data. I did the same process again 3 more times.
      layer because I thought that it could be overfitting with too many units. Lastly I trained the daya with
      only 50 epochs because it seemed the longer it trained, the model would stall and even go down a bit.
 
+<img width="579" alt="Screenshot 2023-10-01 at 7 18 56 PM" src="https://github.com/Kaileycar/deep-learning-challenge/assets/130424499/652da229-1eee-4c20-9259-806e76a15267">
+
+<img width="581" alt="Screenshot 2023-10-01 at 7 19 03 PM" src="https://github.com/Kaileycar/deep-learning-challenge/assets/130424499/f9cb6ebe-6ac1-4b0f-8039-29b9415b5e72">
+
 
   #### Model 4:
   * The target was the 'IS_SUCCESSFUL' column.
