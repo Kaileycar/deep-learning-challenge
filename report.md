@@ -17,7 +17,7 @@ how well it predicted the test data. I did the same process again 3 more times.
 
 ## Results
 
-  #### Model 1:
+  ### Model 1:
   * The target was the 'IS_SUCCESSFUL' column.
   * The features were the rest of the columns.
   * The columns that were dropped were the 'NAME' and 'EIN'.
@@ -35,7 +35,7 @@ how well it predicted the test data. I did the same process again 3 more times.
 
 ---
 
-  #### Model 2:
+  ### Model 2:
   * The target was the 'IS_SUCCESSFUL' column.
   * The features were the rest of the columns.
   * The columns that were dropped were the 'NAME' and 'EIN'.
@@ -62,7 +62,7 @@ how well it predicted the test data. I did the same process again 3 more times.
 
 ---
 
-  #### Model 3:
+  ### Model 3:
   * The target was the 'IS_SUCCESSFUL' column.
   * The features were the rest of the columns.
   * The columns that were dropped were the 'NAME' and 'EIN'.
@@ -90,7 +90,7 @@ how well it predicted the test data. I did the same process again 3 more times.
 
 ---
 
-  #### Model 4:
+  ### Model 4:
   * The target was the 'IS_SUCCESSFUL' column.
   * The features were the rest of the columns.
   * The columns that were dropped were the 'NAME' and 'EIN'.
