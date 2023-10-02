@@ -47,7 +47,7 @@ how well it predicted the test data. I did the same process again 3 more times.
   * The  Output layer had 1 unit and sigmoid as an activation.
   * I trained the model with 100 epochs.
 
-  * The loss was `0.5673` and the accuracy was `0.7238`.
+  * The loss was `0.5687` and the accuracy was `0.7246`.
   * I was not able to achieve the performace of a 0.75 or higher. The things I had changed in this model was
     my binning of the 'CLASSIFICATION' column by adding in one more column. I also used tanh as the first
     activation and it seemed to work better with this data, but not by much. I then added in a third hidden
@@ -69,7 +69,7 @@ how well it predicted the test data. I did the same process again 3 more times.
   * The Output layer had 1 unit and sigmoid as an activation.
   * I trained the model with 50 epochs.
 
-  *  The loss was `0.5570` and the accuracy was `0.7268`.
+  *  The loss was `0.5592` and the accuracy was `0.7267`.
   *  I was not able to achieve the performance of a 0.75 or higher. I removed a hidden layer seeing as
      the last model was worse than the first one and thought it could be because I had an extra hidden layer.
      I also thought that my test and train data split could be the issue so I wanted to see what a bigger test
@@ -94,7 +94,7 @@ how well it predicted the test data. I did the same process again 3 more times.
   * The Output layer has 1 unit and sigmoid as an activation.
   * I trained the model with 10 epochs.
 
-  * The loss was `0.5522` and the accuracy was `0.7299`.
+  * The loss was `0.5516` and the accuracy was `0.7284`.
   * I was not able to achieve the performance of a 0.75 or higher, however, this was the highest accuracy I've had so
     far. I had added in 2 more hidden layers and played around with leaky_relu as an activation to see if it was a
     better fit than the relu. I then changed the test size to 0.4 and lessened the amount of neurons per layer.
