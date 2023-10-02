@@ -110,6 +110,10 @@ how well it predicted the test data. I did the same process again 3 more times.
     I think the thing that helped a lot was the number of epochs being so low. I noticed the higher the amount of
     epochs were, the lower the accuracy was.
 
+<img width="570" alt="Screenshot 2023-10-01 at 7 21 11 PM" src="https://github.com/Kaileycar/deep-learning-challenge/assets/130424499/26cf3fa7-063d-455c-9f38-19dc44288b40">
+
+<img width="573" alt="Screenshot 2023-10-01 at 7 21 17 PM" src="https://github.com/Kaileycar/deep-learning-challenge/assets/130424499/a4fff939-37da-410a-9fda-21f131f4f4a7">
+
 ---
 
 ## Summary
