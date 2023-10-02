@@ -10,8 +10,8 @@ kind of model would accuratley predict if people would be successful or not.
 ## About 
 
 This assignment is split into 3 sections. Parts 1 and 2 are building your model and testing / evaluating it. Part 3  
-is writing up a report on your findings and explaining them. When building and optimizing your models, here are some    
-thoughts to consider:    
+is writing up a report on your findings and explaining them. When building and optimizing your models, here are  
+some thoughts to consider:      
   * Adjust the input data to ensure that no variables or outliers are causing confusion in the model, such as:
   * Dropping more or fewer columns.
   * Creating more bins for rare occurrences in columns.  
